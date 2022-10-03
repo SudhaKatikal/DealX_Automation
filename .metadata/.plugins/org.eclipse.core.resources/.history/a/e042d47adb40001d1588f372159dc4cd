@@ -1,0 +1,12 @@
+package YourLogo_Assessment;
+
+public class TC2_MultipleSearch extends TC1_SearchAndVerify{
+	
+	public void test2() {
+		System.out.println("TC2");	
+	}
+	
+	
+	
+
+}

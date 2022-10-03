@@ -1,0 +1,104 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:31:47</td>   <td>0</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC1_SearchAndVerify@c074c0c]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="d7fc87">  <td>22/10/03 14:32:10</td>   <td>22465</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC1_SearchAndVerify.TestCase1_PerformSearchAndValidate()[pri:1, instance:com.qa.YourLogo_Assessment.TC1_SearchAndVerify@c074c0c]">TestCase1_PerformSearchAndValidate</td> 
+  <td>TestNG-test=TC1_SearchAndVerify-1@1001540875</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:14</td>   <td>26220</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC1_SearchAndVerify@c074c0c]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC1_SearchAndVerify-1@1001540875</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:14</td>   <td>26386</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC1_SearchAndVerify@c074c0c]">&lt;&lt;tear_down</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:14</td>   <td>26742</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="d7fc87">  <td>22/10/03 14:32:22</td>   <td>34173</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC1_SearchAndVerify.TestCase1_PerformSearchAndValidate()[pri:1, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]">TestCase1_PerformSearchAndValidate</td> 
+  <td>TestNG-test=TC2_MultipleSearch-1@497852241</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:26</td>   <td>38480</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC2_MultipleSearch-2@1153701023</td>   <td></td> </tr>
+<tr bgcolor="b3df93">  <td>22/10/03 14:32:26</td>   <td>38631</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC2_MultipleSearch.TestCase2_MultipleSearch()[pri:2, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]">TestCase2_MultipleSearch</td> 
+  <td>TestNG-test=TC2_MultipleSearch-2@1153701023</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:36</td>   <td>48439</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC2_MultipleSearch-2@1153701023</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:36</td>   <td>48592</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]">&lt;&lt;tear_down</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:36</td>   <td>48926</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="d7fc87">  <td>22/10/03 14:32:46</td>   <td>58367</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC1_SearchAndVerify.TestCase1_PerformSearchAndValidate()[pri:1, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]">TestCase1_PerformSearchAndValidate</td> 
+  <td>TestNG-test=TC3_DataDrivenApproachUsingExcel-1@248461957</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:48</td>   <td>60195</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC3_DataDrivenApproachUsingExcel-2@793026537</td>   <td></td> </tr>
+<tr bgcolor="bbddab">  <td>22/10/03 14:32:48</td>   <td>60325</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC3_DataDrivenApproachUsingExcel.TeastCase3_DataDrivenApproachUsingExcel()[pri:3, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]">TeastCase3_DataDrivenApproachUsingExcel</td> 
+  <td>TestNG-test=TC3_DataDrivenApproachUsingExcel-2@793026537</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:51</td>   <td>63636</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC3_DataDrivenApproachUsingExcel-2@793026537</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:51</td>   <td>63764</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]">&lt;&lt;tear_down</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:32:51</td>   <td>64111</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials@27494e46]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="9c7bdb">  <td>22/10/03 14:32:59</td>   <td>71733</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC4_SignIn_using_credentials.TestCase4_SignIn_using_credentials()[pri:4, instance:com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials@27494e46]">TestCase4_SignIn_using_credentials</td> 
+  <td>TestNG-test=TC4_SignIn_using_credentials-1@1362332851</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:07</td>   <td>79369</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials@27494e46]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC4_SignIn_using_credentials-1@1362332851</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:07</td>   <td>79521</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials@27494e46]">&lt;&lt;tear_down</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:07</td>   <td>79874</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="9c7bdb">  <td>22/10/03 14:33:16</td>   <td>89059</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC4_SignIn_using_credentials.TestCase4_SignIn_using_credentials()[pri:4, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]">TestCase4_SignIn_using_credentials</td> 
+  <td>TestNG-test=TC5_Cart_Validation-1@372000866</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:24</td>   <td>96717</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC5_Cart_Validation-2@1307011118</td>   <td></td> </tr>
+<tr bgcolor="adb293">  <td>22/10/03 14:33:24</td>   <td>96862</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC5_Cart_Validation.TestCase5_Cart_Validation()[pri:5, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]">TestCase5_Cart_Validation</td> 
+  <td>TestNG-test=TC5_Cart_Validation-2@1307011118</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:42</td>   <td>114945</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC5_Cart_Validation-2@1307011118</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:42</td>   <td>115074</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]">&lt;&lt;tear_down</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:43</td>   <td>115504</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:33:49</td>   <td>122124</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyHoveringWomanMenu()[pri:1, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyHoveringWomanMenu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-1@1656484957</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:50</td>   <td>122287</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:33:50</td>   <td>122729</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyHoveringDressesMenu()[pri:2, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyHoveringDressesMenu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-2@763222769</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:50</td>   <td>122889</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:33:51</td>   <td>123273</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOnTshirtsMenu()[pri:3, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyClickOnTshirtsMenu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-3@513836612</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:54</td>   <td>126817</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:33:54</td>   <td>126987</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOnTshirtsSubMenu_Under_Women_Menu()[pri:4, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyClickOnTshirtsSubMenu_Under_Women_Menu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-4@1599265686</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:56</td>   <td>128666</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:33:56</td>   <td>128835</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOnBlousesSubMenu_Under_Women_Menu()[pri:5, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyClickOnBlousesSubMenu_Under_Women_Menu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:33:58</td>   <td>131130</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:33:59</td>   <td>131276</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_CasualDresses_submenu_Under_Women_Menu()[pri:6, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyClickOn_CasualDresses_submenu_Under_Women_Menu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:34:01</td>   <td>133723</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:34:01</td>   <td>133941</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_EveningDresses_submenu_Under_Women_Menu()[pri:7, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyClickOn_EveningDresses_submenu_Under_Women_Menu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:34:03</td>   <td>135871</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:34:03</td>   <td>136019</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_SummerDresses_submenu_Under_Women_Menu()[pri:8, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyClickOn_SummerDresses_submenu_Under_Women_Menu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:34:06</td>   <td>138689</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:34:06</td>   <td>138921</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu()[pri:9, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:34:09</td>   <td>141719</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:34:09</td>   <td>141939</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu()[pri:10, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:34:15</td>   <td>147242</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="7d7df8">  <td>22/10/03 14:34:15</td>   <td>147392</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu()[pri:11, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu</td> 
+  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:34:18</td>   <td>151114</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;BaseTest.TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;TakeScreenshot</td> 
+<td>&nbsp;</td>  <td>TestNG-test=TC6_MenuNavigation-5@2064278152</td>   <td></td> </tr>
+<tr bgcolor="8a89df">  <td>22/10/03 14:34:19</td>   <td>151357</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]">&lt;&lt;tear_down</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+</table>

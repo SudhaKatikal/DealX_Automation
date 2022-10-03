@@ -1,0 +1,84 @@
+package YourLogo_Assessment;
+
+import static org.testng.Assert.fail;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class TC5_Cart_Validation extends TC4_SignIn_using_credentials{
+	String dress_model = "Printed Dress";
+	
+	private float calcualte_total_price(float unit_price, int quantity) 
+	{
+		return unit_price * quantity;
+	}
+	
+	@Test(priority=1)
+	public void TestCase5_Cart_Validation()
+	{
+		try {
+			
+			//Entering the dress model in search and click on Search button 
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			driver.findElement(By.id("search_query_top")).click();
+			driver.findElement(By.id("search_query_top")).clear();
+			driver.findElement(By.id("search_query_top")).sendKeys(dress_model);
+			
+			driver.findElement(By.name("submit_search")).click();
+			
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			
+			//Selecting the Dress and click on it 
+			driver.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li[1]/div/div[2]/h5/a")).click();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			
+			//After opening Detailed information of that dress, click on the cart
+			driver.findElement(By.xpath("//*[@id=\"add_to_cart\"]/button")).click();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			
+			//Button Click on Proceed Shopping 
+			driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/span/span")).click();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			
+			//Button Click on View cart
+			driver.findElement(By.xpath("//*[@id=\"header\"]/div[3]/div/div/div[3]/div/a/b")).click();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			
+			//Incrementing the cart count to add another dress to the cart
+			driver.findElement(By.xpath("//*[@title=\"Add\"]")).click();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			
+			String Unit_Price = driver.findElement(By.xpath("//td[@class=\"cart_unit\"]/span/span[@class=\"price\"]")).getText();
+			//Removing the $ character if it it there in the Unit price
+			Unit_Price = Unit_Price.contains("$") ? (Unit_Price).replace("$", "") : Unit_Price;
+			System.out.println("Unit Price: " + Unit_Price);
+			
+			String Quantity = driver.findElement(By.xpath("//*[@class=\"cart_quantity_input form-control grey\"]")).getAttribute("value");
+			System.out.println("Quantity: " + Quantity);
+			
+			float converted_Unit_Price = 0;
+			int converted_quantity = 0;
+			try {
+				converted_Unit_Price = Float.parseFloat(Unit_Price);
+				converted_quantity = Integer.parseInt(Quantity);
+			} catch (Exception e){
+				System.out.println("Couldn't convert unti price or Quantity");
+			}
+			
+			calcualte_total_price(converted_Unit_Price, Quantity);
+			String Total = driver.findElement(By.xpath("//*[@id=\"total_price_container\"]")).getText();
+			
+			System.out.println("Total: " + Total);
+			
+			Validate_
+			
+			
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

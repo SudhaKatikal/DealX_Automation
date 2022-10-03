@@ -1,0 +1,15 @@
+package YourLogo_Assessment;
+
+import org.testng.annotations.Test;
+
+public class TC2_MultipleSearch extends TC1_SearchAndVerify{
+	
+	@Test(priority=1)
+	public void test2() {
+		System.out.println("in TC2");	
+	}
+	
+	
+	
+
+}

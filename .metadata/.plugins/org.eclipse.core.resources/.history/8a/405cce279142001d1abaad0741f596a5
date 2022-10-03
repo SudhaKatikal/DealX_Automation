@@ -1,0 +1,57 @@
+package com.qa.yourlogo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+public class BasePage extends Page {
+
+	public BasePage(WebDriver driver) {
+		super(driver);
+	}
+	
+	//Generic Utility Wrapper Methods
+	
+	public void perform_click(By locator) {
+		try {
+			driver.findElement(locator).click();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public String perform_get_text(By locator) {
+		String text = null;;
+		try {
+			text = driver.findElement(locator).getText();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		return text;
+	}
+	
+	public void hover(By locator) {
+		try {
+   
+	        Actions actions = new Actions(driver);
+	    	WebElement menuOption = driver.findElement(locator);
+	    	actions.moveToElement(menuOption).perform();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public boolean validate_if_element_exist(By locator) {
+		try {
+			   
+	    	return driver.findElement(locator).isDisplayed();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

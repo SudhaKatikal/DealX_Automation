@@ -1,0 +1,129 @@
+package com.qa.YourLogo_Assessment;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.qa.yourlogo.BrowserHelper;
+
+public class TC6_MenuNavigation_backup {
+	
+    public enum MENU {
+        WOMAN, DRESSES, T_SHIRTS;
+    }
+
+    public enum SUB_MENU {
+        T_SHIRTS, BLOUSES, CASUAL_DRESSES, EVENING_DRESSES, SUMMER_DRESSES;
+    }
+    
+	private WebDriver driver;
+	BrowserHelper browser_helper = null;
+	public String baseUrl= "http://automationpractice.com/";
+	
+	private MENU menu_name = MENU.WOMAN;
+	private SUB_MENU sub_menu_name = SUB_MENU.BLOUSES;
+	
+	public TC6_MenuNavigation_backup()
+	{
+		browser_helper = new BrowserHelper();
+		this.driver = BrowserHelper.get_web_driver();
+	}
+	
+	@BeforeTest
+	public void PreconditionBrowser() 
+	{
+		browser_helper.OpenBrowser();
+		browser_helper.OpenURL(baseUrl);
+	}
+	
+	
+	
+	@Test(priority=1)
+	public void SelectMenu() {
+		
+		switch(menu_name) {
+			case WOMAN:
+				
+				//Instantiate Action Class        
+		        Actions actions = new Actions(driver);
+		        //Retrieve WebElement 'Women' to perform mouse hover 
+		    	WebElement menuOption = driver.findElement(By.xpath("//a[@title=\"Women\" and @class=\"sf-with-ul\"]"));
+		    	//Mouse hover menuOption 'Women'
+		    	actions.moveToElement(menuOption).perform();
+		    	System.out.println("Done Mouse hover on 'Women' from Menu");
+		    	
+		    	
+				if(sub_menu_name == SUB_MENU.T_SHIRTS)
+				{
+					driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[1]/ul/li[1]/ul/li[1]/a")).click();
+					System.out.println("selected subcategory T - shirts");
+				}
+				else if (sub_menu_name == SUB_MENU.BLOUSES)
+				{
+					driver.findElement(By.xpath("//a[@title=\"Blouses\"]")).click();
+					System.out.println("selected subcategory Blouses");
+				}
+				else if (sub_menu_name == SUB_MENU.CASUAL_DRESSES)
+				{
+					driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[1]/ul/li[2]/ul/li[1]/a")).click();
+					System.out.println("selected subcategory Casual Dresses");
+				}
+				
+				else if (sub_menu_name == SUB_MENU.EVENING_DRESSES)
+				{
+					driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[1]/ul/li[2]/ul/li[2]/a")).click();
+					System.out.println("selected subcategory Evening Dresses");
+				}
+				
+				else if (sub_menu_name == SUB_MENU.SUMMER_DRESSES)
+				{
+					driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[1]/ul/li[2]/ul/li[3]/a")).click();
+					System.out.println("selected subcategory Summer Dresses");
+				}				
+				
+				break;
+				
+			case DRESSES:
+				
+				 //Instantiate Action Class        
+		        Actions actions1 = new Actions(driver);
+		        //Retrieve WebElement 'Music' to perform mouse hover 
+		    	WebElement menuOption1 = driver.findElement(By.xpath("//a[@title=\"Dresses\" and @class=\"sf-with-ul\"]"));
+		    	//Mouse hover menuOption 'Music'
+		    	actions1.moveToElement(menuOption1).perform();
+		    	System.out.println("Done Mouse hover on 'Dresses' from Menu");
+				
+				if(sub_menu_name == SUB_MENU.CASUAL_DRESSES)
+				{
+					driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/ul/li[1]/a")).click();
+					System.out.println("selected subcategory Casual Dresses");
+				}
+				else if (sub_menu_name == SUB_MENU.EVENING_DRESSES)
+				{
+					driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/ul/li[2]/a")).click();
+					System.out.println("selected subcategory Evening Dresses");
+				}
+				else if (sub_menu_name == SUB_MENU.SUMMER_DRESSES)
+				{
+					driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/ul/li[3]/a")).click();
+					System.out.println("selected subcategory Summer Dresses");
+				}
+				break;
+				
+			case T_SHIRTS:
+				
+				//Instantiate Action Class        
+		        Actions actions11 = new Actions(driver);
+		        //Retrieve WebElement 'Music' to perform mouse hover 
+		    	WebElement menuOption11 = driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[3]/a"));
+		    	//Mouse hover menuOption 'Music'
+		    	actions11.moveToElement(menuOption11).perform();
+		    	System.out.println("Done Mouse hover on 'T-shirts' from Menu");
+				
+				break;
+		}   
+	}
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite-1" >
+
+<test name="Test Case-1" >
+
+<classes>
+
+<class name="co.edureka.selenium.demo1.Demo1" />
+
+<class name="co.edureka.selenium.demo1.Demo2" />
+
+<class name="co.edureka.selenium.demo1.ImgExistTest" />
+
+<class name="co.edureka.selenium.demo1.ForgotPassword" />
+
+</classes> 
+
+</test>
+
+</suite>

@@ -1,0 +1,54 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Test Suite-1</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="f09482">  <td>22/10/03 06:31:51</td>   <td>0</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="7fb3a0">  <td>22/10/03 06:32:19</td>   <td>28161</td> <td>&nbsp;</td><td title="&gt;&gt;TC1_SearchAndVerify.PreconditionBrowser()[pri:0, instance:YourLogo_Assessment.TC1_SearchAndVerify@6a1ebcff]">&gt;&gt;PreconditionBrowser</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="c9d689">  <td>22/10/03 06:32:19</td>   <td>28171</td> <td>&nbsp;</td><td title="&gt;&gt;TC4_SignIn_using_credentials.PreconditionBrowser()[pri:0, instance:YourLogo_Assessment.TC4_SignIn_using_credentials@19868320]">&gt;&gt;PreconditionBrowser</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="7fb3a0">  <td>22/10/03 06:32:23</td>   <td>31510</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC1_SearchAndVerify.OpenURL()[pri:1, instance:YourLogo_Assessment.TC1_SearchAndVerify@6a1ebcff]">OpenURL</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="7fb3a0">  <td>22/10/03 06:32:25</td>   <td>33812</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC1_SearchAndVerify.OpenURL()[pri:1, instance:YourLogo_Assessment.TC2_MultipleSearch@c20be82]">OpenURL</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="7fb3a0">  <td>22/10/03 06:32:28</td>   <td>37098</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC1_SearchAndVerify.OpenURL()[pri:1, instance:YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@13c612bd]">OpenURL</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="c9d689">  <td>22/10/03 06:32:31</td>   <td>39464</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC4_SignIn_using_credentials.TestCase4_SignIn_using_credentials()[pri:1, instance:YourLogo_Assessment.TC4_SignIn_using_credentials@19868320]">TestCase4_SignIn_using_credentials</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="c9d689">  <td>22/10/03 06:32:31</td>   <td>39507</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC4_SignIn_using_credentials.TestCase4_SignIn_using_credentials()[pri:1, instance:YourLogo_Assessment.TC5_Cart_Validation@3ef41c66]">TestCase4_SignIn_using_credentials</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="b4a4bf">  <td>22/10/03 06:32:31</td>   <td>39530</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC5_Cart_Validation.TestCase5_Cart_Validation()[pri:1, instance:YourLogo_Assessment.TC5_Cart_Validation@3ef41c66]">TestCase5_Cart_Validation</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:33:01</td>   <td>69584</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyHoveringWomanMenu()[pri:1, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyHoveringWomanMenu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="7fb3a0">  <td>22/10/03 06:33:52</td>   <td>120623</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC1_SearchAndVerify.PerformSearchAndValidate()[pri:2, instance:YourLogo_Assessment.TC1_SearchAndVerify@6a1ebcff]">PerformSearchAndValidate</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="7fb3a0">  <td>22/10/03 06:34:02</td>   <td>131161</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC1_SearchAndVerify.PerformSearchAndValidate()[pri:2, instance:YourLogo_Assessment.TC2_MultipleSearch@c20be82]">PerformSearchAndValidate</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="7fb3a0">  <td>22/10/03 06:34:13</td>   <td>141586</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC1_SearchAndVerify.PerformSearchAndValidate()[pri:2, instance:YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@13c612bd]">PerformSearchAndValidate</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:23</td>   <td>152062</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyHoveringDressesMenu()[pri:2, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyHoveringDressesMenu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="fc69bd">  <td>22/10/03 06:34:23</td>   <td>152065</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC2_MultipleSearch.TestCase2_MultipleSearch()[pri:3, instance:YourLogo_Assessment.TC2_MultipleSearch@c20be82]">TestCase2_MultipleSearch</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="707274">  <td>22/10/03 06:34:34</td>   <td>162538</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC3_DataDrivenApproachUsingExcel.TeastCase3_DataDrivenApproachUsingExcel()[pri:3, instance:YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@13c612bd]">TeastCase3_DataDrivenApproachUsingExcel</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:45</td>   <td>173629</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOnTshirtsMenu()[pri:3, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyClickOnTshirtsMenu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:45</td>   <td>173631</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOnTshirtsSubMenu_Under_Women_Menu()[pri:4, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyClickOnTshirtsSubMenu_Under_Women_Menu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:45</td>   <td>173634</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOnBlousesSubMenu_Under_Women_Menu()[pri:5, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyClickOnBlousesSubMenu_Under_Women_Menu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:45</td>   <td>173636</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_CasualDresses_submenu_Under_Women_Menu()[pri:6, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyClickOn_CasualDresses_submenu_Under_Women_Menu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:45</td>   <td>173639</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_EveningDresses_submenu_Under_Women_Menu()[pri:7, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyClickOn_EveningDresses_submenu_Under_Women_Menu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:45</td>   <td>173641</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_SummerDresses_submenu_Under_Women_Menu()[pri:8, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyClickOn_SummerDresses_submenu_Under_Women_Menu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:45</td>   <td>173644</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu()[pri:9, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:45</td>   <td>173646</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu()[pri:10, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+<tr bgcolor="979589">  <td>22/10/03 06:34:45</td>   <td>173648</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="TC6_MenuNavigation.verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu()[pri:11, instance:YourLogo_Assessment.TC6_MenuNavigation@50b0bc4c]">verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu</td> 
+  <td>main@1361960727</td>   <td></td> </tr>
+</table>

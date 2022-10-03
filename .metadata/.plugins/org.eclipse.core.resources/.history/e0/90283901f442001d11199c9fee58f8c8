@@ -1,0 +1,51 @@
+package com.qa.YourLogo_Assessment;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+import org.apache.commons.io.FileUtils;
+
+import com.qa.yourlogo.BrowserHelper;
+import com.qa.yourlogo.Page;
+
+public class BaseTest {
+	BrowserHelper browser_helper = new BrowserHelper();
+	public static WebDriver driver = BrowserHelper.get_web_driver();
+	public Page page;
+	public String baseUrl= "http://automationpractice.com/";
+	
+	@AfterMethod
+    public static void TakeScreenshot(String FileName)
+            throws IOException
+        {
+            // Creating instance of File
+            File File = ((TakesScreenshot)driver)
+                            .getScreenshotAs(OutputType.FILE);
+     
+            FileUtils.copyFile(File,
+                               new File("image location"
+                                        + FileName + ".jpeg"));
+        }
+	
+	@BeforeTest
+	public void setup() {
+		browser_helper.OpenBrowser();
+		browser_helper.OpenURL(baseUrl);
+		
+		//Create the Object for Page class (Instantiate the Page Class) 
+		page = new Page(driver);
+	}
+	
+	@AfterTest
+	public void tear_down() {
+		browser_helper.CloseBrowser();
+		
+	}
+}

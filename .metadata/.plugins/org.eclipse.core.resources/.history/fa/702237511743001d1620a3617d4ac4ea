@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- 
+  <test thread-count="30" name="Methods" parallel="instances">
+    <classes>
+      <class name="com.qa.YourLogo_Assessment.TC1_SearchAndVerify"/>
+ 	  <class name="com.qa.YourLogo_Assessment.TC2_MultipleSearch" />
+	  <class name="com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel" />
+	  <class name="com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials" />
+	  <class name="com.qa.YourLogo_Assessment.TC5_Cart_Validation" />
+ 	  <class name="com.qa.YourLogo_Assessment.TC6_MenuNavigation" />
+    </classes>
+  </test>  -->
+
+	<test name="TC1_SearchAndVerify" parallel="methods">
+		<classes>
+			<class name="com.qa.YourLogo_Assessment.TC1_SearchAndVerify"/>
+		</classes>
+	</test>
+	<test name="TC2_MultipleSearch" parallel="methods">
+		<classes>
+			<class name="com.qa.YourLogo_Assessment.TC2_MultipleSearch" />
+		</classes>
+	</test>
+	<test name="TC3_DataDrivenApproachUsingExcel" parallel="methods">
+		<classes>
+			<class name="com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel" />
+		</classes>
+	</test>
+	<test name="TC4_SignIn_using_credentials" parallel="methods">
+		<classes>
+			<class name="com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials" />
+		</classes>
+	</test>
+	<test name="TC5_Cart_Validation" parallel="methods">
+		<classes>
+			<class name="com.qa.YourLogo_Assessment.TC5_Cart_Validation" />
+		</classes>
+	</test>
+	<test name="TC5_Cart_Validation" parallel="methods">
+		<classes>
+			<class name="com.qa.YourLogo_Assessment.TC6_MenuNavigation" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

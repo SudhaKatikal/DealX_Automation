@@ -1,0 +1,77 @@
+package YourLogo_Assessment;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import jxl.Cell;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
+
+public class TC3_DataDrivenApproachUsingExcel extends TC1_SearchAndVerify{
+	private String excel_file_path = null;
+
+	
+	public TC3_DataDrivenApproachUsingExcel()
+	{
+		this.excel_file_path = "./Test_Data/TestData.xlsx";
+		this.excel_file_path = "C:\\Users\\koti.challa\\eclipse-workspace\\YourLogo\\Test_Data\\TestDataa.xls";
+	}
+	
+	private String[] read_search_strings_from_excel_spread_sheet()
+	{
+	    File            exceFile;
+        Workbook        excelWorkBook;
+        Sheet           excelSheet;
+		String[] search_strings = null;
+		
+		try
+		{
+			File f = new File("TestCaseData.xlsx");
+			FileInputStream fis = new FileInputStream(f);
+			XSSFWorkbook excelWorkbook = new XSSFWorkbook(fis);
+			XSSFSheet excelSheet = excelWorkbook.getSheetAt(0);
+			
+			exceFile = new File(excel_file_path);
+            if (!exceFile.exists())
+            {
+                throw new RuntimeException("Unable to find the file : " + excel_file_path);
+            }
+            excelWorkBook = Workbook.getWorkbook(exceFile);
+            excelSheet = excelWorkBook.getSheet(0);
+            int rows = excelSheet.getRows();
+            search_strings = new String[rows-1];
+            for (int row = 1; row < rows; row++)
+            {
+                String attributeName = excelSheet.getCell(0, row).getContents().trim();
+                if (!attributeName.equalsIgnoreCase(""))
+                {
+                    System.out.println(attributeName);
+                    search_strings[row-1] = attributeName;
+                }
+            }
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		return search_strings;
+	}
+	
+	@Test(priority=3)
+	public void TeastCase3_DataDrivenApproachUsingExcel()
+	{
+		String[] search_strings = null;
+		
+		search_strings = read_search_strings_from_excel_spread_sheet();
+		
+	    for (String search_string : search_strings)
+	    {
+	    	System.out.println(search_string);
+	    	set_search_string(search_string);
+	    	PerformSearchAndValidate();
+	    }
+	}
+}

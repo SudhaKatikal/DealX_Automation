@@ -1,0 +1,32 @@
+package YourLogo_Assessment;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+
+import com.qa.yourlogo.BrowserHelper;
+import com.qa.yourlogo.Page;
+
+public class BaseTest {
+	BrowserHelper browser_helper = new BrowserHelper();
+	public WebDriver driver = BrowserHelper.get_web_driver();
+	public Page page;
+	public String baseUrl= "http://automationpractice.com/";
+	
+	@BeforeTest
+	public void setup() {
+		browser_helper.OpenBrowser();
+		browser_helper.OpenURL(baseUrl);
+		
+		//Create the Object for Page class (Instantiate the Page Class) 
+		page = new Page(driver);
+	}
+	
+	@AfterTest
+	public void tear_down() {
+		browser_helper.CloseBrowser();
+		
+	}
+}

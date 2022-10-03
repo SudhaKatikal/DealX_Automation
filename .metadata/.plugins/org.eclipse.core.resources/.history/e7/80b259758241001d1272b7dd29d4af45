@@ -1,0 +1,31 @@
+package YourLogo_Assessment;
+
+import org.testng.annotations.Test;
+
+public class TC2_MultipleSearch extends TC1_SearchAndVerify{
+	
+	String searchCriteria = "Blouse,T-shirts,Dress";
+	
+	private String[] parse_search_strings(String serach_string_criteria)
+	{
+		return serach_string_criteria.split(",");
+	}
+	
+	@Test(priority=3)
+	public void TestCase2_MultipleSearch() {
+		String[] search_strings = null;
+		
+		search_strings = parse_search_strings(searchCriteria);
+		
+	    for (String search_string : search_strings)
+	    {
+	    	System.out.println(search_string);
+	    	set_search_string(search_string);
+	    	PerformSearchAndValidate();
+	    }
+	}
+	
+	
+	
+
+}

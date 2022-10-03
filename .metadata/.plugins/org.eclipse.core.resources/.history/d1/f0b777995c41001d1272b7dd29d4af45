@@ -1,0 +1,13 @@
+package YourLogo_Assessment;
+
+import java.io.IOException;
+
+import org.testng.annotations.DataProvider;
+
+public class TC3_DataDrivenApproachUsingExcel extends TC1_SearchAndVerify{
+
+	@DataProvider(name = "TestData")
+	public object[][] Exceldatas() throws BiffException, IOException,Exception{
+	String filepath = "./Drivers/Chromedriver.exe"
+	}
+}

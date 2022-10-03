@@ -1,0 +1,38 @@
+package com.qa.YourLogo_Assessment;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class TC2_MultipleSearch extends TC1_SearchAndVerify{
+	
+	String searchCriteria = "Blouse,T-shirts,Printed";
+	
+	/**
+	* This method parse the  serach_string_criteria strings separated by comma
+	* and returns the array of the Search Strings
+	* @param serach_string_criteria  search strings separated by comma
+	* @return      the String array of the Search Strings
+	*/
+	private String[] parse_search_strings(String serach_string_criteria)
+	{
+		return serach_string_criteria.split(",");
+	}
+	
+	@Test(priority=3)
+	public void TestCase2_MultipleSearch() {
+		String[] search_strings = null;
+		
+		search_strings = parse_search_strings(searchCriteria);
+		
+	    for (String search_string : search_strings)
+	    {
+	    	Reporter.log(search_string);
+	    	set_search_string(search_string);
+	    	PerformSearchAndValidate();
+	    }
+	}
+	
+	
+	
+
+}

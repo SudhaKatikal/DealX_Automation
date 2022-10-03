@@ -1,0 +1,14 @@
+package YourLogo_Assessment;
+
+public class TC4_SignIn_using_credentials {
+	private static final String username= "sudha.katikala10@gmail.com";
+	private static final String password = "Sudha@mystore4120";
+	TC1_SearchAndVerify TC1_Obj = new TC1_SearchAndVerify();
+	
+	public void TestCase4_SignIn_using_credentials() throws InterruptedException
+	{
+		TC1_Obj.OpenBrowser();
+		TC1_Obj.OpenURL();
+	}
+
+}

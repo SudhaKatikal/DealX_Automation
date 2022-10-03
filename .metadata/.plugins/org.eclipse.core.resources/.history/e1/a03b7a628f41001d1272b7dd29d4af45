@@ -1,0 +1,43 @@
+package YourLogo_Assessment;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrowserHelper {
+	public static WebDriver driver;
+	public String Title = "My Store";
+	
+	public BrowserHelper()
+	{
+		System.setProperty("webdriver.chrome.driver","./Drivers/Chromedriver.exe");
+		driver = new ChromeDriver();
+	}
+
+	
+	public void OpenBrowser() 
+	{
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+	
+	public void OpenURL(String baseUrl) throws InterruptedException { 
+		
+		driver.get(baseUrl);
+		
+		String Expecte_title = driver.getTitle();
+		
+		System.out.println(Expecte_title);
+		
+		if (Expecte_title.equals(Title)) {
+			System.out.println("Application is Launchced Successfully");
+		} 
+		else {
+			System.out.println("Application is not Launchced Successfully");
+		}
+		
+		driver.manage().timeouts().implicitlyWait(210, TimeUnit.SECONDS);
+		
+	}
+}

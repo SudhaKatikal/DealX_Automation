@@ -1,0 +1,38 @@
+package YourLogo_Assessment;
+import java.io.FileInputStream;
+import java.io.IOException;
+import org.testng.annotations.DataProvider;
+
+import jxl.Cell;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
+
+public class TC3_DataDrivenApproachUsingExcel extends TC1_SearchAndVerify{
+	private String excel_file_path = null;
+	
+	public TC3_DataDrivenApproachUsingExcel()
+	{
+		this.excel_file_path = "./Test_Data/TestData.xlsx";
+	}
+	
+	private String[] read_search_strings_from_excel_spread_sheet()
+	{
+		return null;
+	}
+	
+
+	public void TeastCase3_DataDrivenApproachUsingExcel()
+	{
+		String[] search_strings = null;
+		
+		search_strings = read_search_strings_from_excel_spread_sheet();
+		
+	    for (String search_string : search_strings)
+	    {
+	    	System.out.println(search_string);
+	    	set_search_string(search_string);
+	    	PerformSearchAndValidate();
+	    }
+	}
+}

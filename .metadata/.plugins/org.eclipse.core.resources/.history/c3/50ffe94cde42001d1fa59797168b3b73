@@ -1,0 +1,91 @@
+
+
+package com.qa.YourLogo_Assessment;
+
+import static org.testng.Assert.fail;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.qa.yourlogo.BrowserHelper;
+
+public class TC1_SearchAndVerify {
+	
+	public WebDriver driver;
+	BrowserHelper browser_helper = null;
+	public String baseUrl= "http://automationpractice.com/";
+	private String search_string = null;
+	
+
+	public TC1_SearchAndVerify()
+	{
+		this.search_string = "Dress";
+		browser_helper = new BrowserHelper();
+		this.driver = BrowserHelper.get_web_driver();
+	}
+	
+	public void set_search_string(String _search_string)
+	{
+		this.search_string = _search_string;
+	}
+	
+	
+	@BeforeTest
+	public void PreconditionBrowser() 
+	{
+		browser_helper.OpenBrowser();
+	}
+	
+	@Test(priority=1)
+	
+	public void OpenURL() { 
+		browser_helper.OpenURL(baseUrl);
+	}
+	
+
+	@Test(priority=2)
+	
+	public void PerformSearchAndValidate () {
+
+		driver.findElement(By.id("search_query_top")).click();
+		driver.findElement(By.id("search_query_top")).clear();
+		driver.findElement(By.id("search_query_top")).sendKeys(this.search_string);
+		
+		Reporter.log("Search String entered in to the Search Textbox");
+		
+		driver.findElement(By.name("submit_search")).click();
+		
+		Reporter.log("Search Button is selected");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		String first_search_result_string = driver.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li[1]/div/div[2]/h5/a")).getText();
+		//System.out.println("Input Search string:" +  this.search_string + ", First Search Result occurence:" + first_search_result_string);
+		
+		Reporter.log("Input Search string:" +  this.search_string + ", First Search Result occurence:" + first_search_result_string);
+		
+		if (first_search_result_string.contains(this.search_string))
+		{
+			//System.out.println("Input Search string is found in First Search Result occurence");
+			Reporter.log("Input Search string is found in First Search Result occurence");
+		}
+		else
+		{
+			fail("Input Search string is not found in First Search Result occurence");
+		}
+		
+	}
+	
+	@AfterTest	
+	public void tearDown() throws Exception 
+	{
+		browser_helper.CloseBrowser();
+	}
+
+}

@@ -1,0 +1,30 @@
+package YourLogo_Assessment;
+
+import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertTrue;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.qa.yourlogo.BrowserHelper;
+import com.qa.yourlogo.YourLogoPage;
+
+public class TC6_MenuNavigation extends BaseTest{
+	
+	
+	@Test(priority=1)
+	public void verifyHoveringWomanMenu() {
+		boolean result = page.getInstance(YourLogoPage.class).hover_on_women_menu();
+		assertTrue(result, "Submenu is not displayed under WOMEN Menu");
+	}
+	
+	@Test(priority=1)
+	public void verifyHoveringDressesMenu() {
+		boolean result = page.getInstance(YourLogoPage.class).hover_on_dresses_menu();
+		assertTrue(result, "Submenu is not displayed under Dresses Menu");
+	}
+}

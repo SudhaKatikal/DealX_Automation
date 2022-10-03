@@ -1,0 +1,23 @@
+package YourLogo_Assessment;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.testng.annotations.DataProvider;
+
+public class TC3_DataDrivenApproachUsingExcel extends TC1_SearchAndVerify{
+
+	@DataProvider(name = "TestData")
+	public object[][] Exceldatas() throws BiffException, IOException,Exception{
+	String filepath = "./Test_Data/TestData.xlsx";
+	
+	//Read Excel Data
+	FileInputStream Excelfile = new FileInputStream(filepath);
+	
+	//Read Workbook
+	workbook Excelbook = Workbook.getworkbook(Excelfile);
+	
+	//Read Sheet
+	Sheet Excelsheet = Excelbook.getsheet("TestData");
+	}
+}

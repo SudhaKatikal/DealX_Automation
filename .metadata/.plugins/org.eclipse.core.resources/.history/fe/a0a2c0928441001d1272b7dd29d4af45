@@ -1,0 +1,6 @@
+package YourLogo_Assessment;
+
+public class TC4_SignIn_using_credentials {
+	private String username= "http://automationpractice.com/";
+	private String search_string = null;
+}

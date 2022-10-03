@@ -1,0 +1,37 @@
+package YourLogo_Assessment;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class TC4_SignIn_using_credentials {
+
+	private static final String username= "sudha.katikala10@gmail.com";
+	private static final String password = "Sudha@mystore4120";
+	BrowserHelper browser_helper = null;
+	public WebDriver driver;
+
+	
+	public TC4_SignIn_using_credentials() 
+	{
+		browser_helper = new BrowserHelper();
+		this.driver = BrowserHelper.get_web_driver();
+	}
+	@Test(priority=1)
+	
+	public void TestCase4_SignIn_using_credentials() throws Exception
+	{
+		TC1_Obj.OpenBrowser();
+		TC1_Obj.OpenURL();
+		
+		//Click on Signin button
+		
+		driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a"));
+		
+		driver.findElement(By.id("authentication")).sendKeys(username);
+		
+		
+		//TC1_Obj.tearDown();
+	}
+
+}

@@ -1,0 +1,7 @@
+<h2>Reporter output</h2><table><tr><td>Title of ApplicationMy Store</td></tr>
+<tr><td>User Logged in successfully</td></tr>
+<tr><td>Unit Price: 28.98</td></tr>
+<tr><td>Quantity: 2</td></tr>
+<tr><td>Total price captured: $57.96</td></tr>
+<tr><td>Total Price captured on Cart is matcthed with Expected Amount</td></tr>
+</table>

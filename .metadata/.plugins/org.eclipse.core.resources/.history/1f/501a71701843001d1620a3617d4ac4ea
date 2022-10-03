@@ -1,0 +1,45 @@
+<h2>Reporter output</h2><table><tr><td>Title of ApplicationMy Store</td></tr>
+<tr><td>Input Search string:Dress, First Search Result occurence:Printed Summer Dress</td></tr>
+<tr><td>Input Search string is found in First Search Result occurence</td></tr>
+<tr><td>Title of ApplicationMy Store</td></tr>
+<tr><td>Input Search string:Dress, First Search Result occurence:Printed Summer Dress</td></tr>
+<tr><td>Input Search string is found in First Search Result occurence</td></tr>
+<tr><td>Blouse</td></tr>
+<tr><td>Input Search string:Blouse, First Search Result occurence:Blouse</td></tr>
+<tr><td>Input Search string is found in First Search Result occurence</td></tr>
+<tr><td>T-shirts</td></tr>
+<tr><td>Input Search string:T-shirts, First Search Result occurence:Faded Short Sleeve T-shirts</td></tr>
+<tr><td>Input Search string is found in First Search Result occurence</td></tr>
+<tr><td>Printed</td></tr>
+<tr><td>Input Search string:Printed, First Search Result occurence:Printed Summer Dress</td></tr>
+<tr><td>Input Search string is found in First Search Result occurence</td></tr>
+<tr><td>Title of ApplicationMy Store</td></tr>
+<tr><td>Input Search string:Dress, First Search Result occurence:Printed Summer Dress</td></tr>
+<tr><td>Input Search string is found in First Search Result occurence</td></tr>
+<tr><td>Blouse</td></tr>
+<tr><td>Input Search string:Blouse, First Search Result occurence:Blouse</td></tr>
+<tr><td>Input Search string is found in First Search Result occurence</td></tr>
+<tr><td>T-shirts</td></tr>
+<tr><td>Input Search string:T-shirts, First Search Result occurence:Faded Short Sleeve T-shirts</td></tr>
+<tr><td>Input Search string is found in First Search Result occurence</td></tr>
+<tr><td>Title of ApplicationMy Store</td></tr>
+<tr><td>User Logged in successfully</td></tr>
+<tr><td>Title of ApplicationMy Store</td></tr>
+<tr><td>User Logged in successfully</td></tr>
+<tr><td>Unit Price: 28.98</td></tr>
+<tr><td>Quantity: 2</td></tr>
+<tr><td>Total price captured: $57.96</td></tr>
+<tr><td>Total Price captured on Cart is matcthed with Expected Amount</td></tr>
+<tr><td>Title of ApplicationMy Store</td></tr>
+<tr><td>Hovering Results on WOMEN Menu: true</td></tr>
+<tr><td>Hovering Results on DRESSES Menu: true</td></tr>
+<tr><td>After Click on T-SHIRTS Menu, String on the Page: T-SHIRTS </td></tr>
+<tr><td>After Click on T-SHIRTS Sub Menu under the WOMEN Menu, String on the Page: T-SHIRTS </td></tr>
+<tr><td>After Click on BLOUSES Sub Menu under the WOMEN Menu, String on the Page: BLOUSES </td></tr>
+<tr><td>After Click on CASUAL DRESSES Sub Menu under the WOMEN Menu, String on the Page: CASUAL DRESSES </td></tr>
+<tr><td>After Click on EVENING DRESSES Sub Menu under the WOMEN Menu, String on the Page: EVENING DRESSES </td></tr>
+<tr><td>After Click on SUMMER DRESSES Sub Menu under the WOMEN Menu, String on the Page: SUMMER DRESSES </td></tr>
+<tr><td>After Click on CASUAL DRESSES Sub Menu under the DRESSES Menu, String on the Page: CASUAL DRESSES </td></tr>
+<tr><td>After Click on EVENING DRESSES Sub Menu under the DRESSES Menu, String on the Page: EVENING DRESSES </td></tr>
+<tr><td>After Click on SUMMER DRESSES Sub Menu under the DRESSES Menu, String on the Page: SUMMER DRESSES </td></tr>
+</table>

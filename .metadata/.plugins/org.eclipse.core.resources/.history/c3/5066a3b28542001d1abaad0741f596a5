@@ -1,0 +1,13 @@
+package com.qa.yourlogo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class YourLogoPage extends BasePage {
+
+	public YourLogoPage(WebDriver driver, WebDriverWait wait) {
+		super(driver, wait);
+	}
+
+	
+}

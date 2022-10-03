@@ -1,0 +1,26 @@
+package com.qa.yourlogo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+
+
+public class YourLogoPage extends BasePage {
+
+	public YourLogoPage(WebDriver driver) {
+		super(driver);
+	}
+	String xpath_women_menu = "//a[@title=\"Women\" and @class=\"sf-with-ul\"]";
+	
+	By hover_women_menu = By.xpath(xpath_women_menu);
+	By hover_dresses_menu = By.xpath("//a[@title=\"Dresses\" and @class=\"sf-with-ul\"]");
+	By hover_tshirts_menu = By.xpath("//*[@id=\"block_top_menu\"]/ul/li[3]/a");
+
+	public void hover_on_women_menu() {
+		hover(hover_women_menu);
+		
+	}
+
+}

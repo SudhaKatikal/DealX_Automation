@@ -1,0 +1,23 @@
+package YourLogo_Assessment;
+
+import static org.testng.Assert.fail;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class TC5_Cart_Validation extends TC4_SignIn_using_credentials{
+
+	@Test(priority=1)
+	public void TestCase5_Cart_Validation()
+	{
+		try {
+			System.out.println("hello");
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

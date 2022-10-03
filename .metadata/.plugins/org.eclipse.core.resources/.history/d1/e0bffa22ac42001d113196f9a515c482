@@ -1,0 +1,56 @@
+package com.qa.yourlogo;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class BrowserHelper {
+	private WebDriver driver;
+	public String Title = "My Store";
+	
+	public BrowserHelper()
+	{
+		System.setProperty("webdriver.chrome.driver","./Drivers/Chromedriver.exe");
+		driver = new ChromeDriver();
+	}
+	
+	public WebDriver get_web_driver()
+	{
+		return driver;
+	}
+	
+	public void OpenBrowser() 
+	{
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+	
+	public void OpenURL(String baseUrl) { 
+		try {
+			driver.get(baseUrl);
+			
+			String Expecte_title = driver.getTitle();
+			
+			System.out.println("Title of Application" +Expecte_title);
+			
+			if (Expecte_title.equals(Title)) {
+				System.out.println("Application is Launchced Successfully");
+			} 
+			else {
+				System.out.println("Application is not Launchced Successfully");
+			}
+			
+			driver.manage().timeouts().implicitlyWait(210, TimeUnit.SECONDS);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void CloseBrowser() 
+	{
+		driver.quit();
+	}
+}

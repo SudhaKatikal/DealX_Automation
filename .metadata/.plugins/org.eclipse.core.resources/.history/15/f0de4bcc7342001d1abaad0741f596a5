@@ -1,0 +1,22 @@
+package com.qa.yourlogo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class BasePage extends Page {
+
+	public BasePage(WebDriver driver, WebDriverWait wait) {
+		super(driver, wait);
+	}
+
+	//Generic Utility Wrappers
+	public void perform_click(By locator) {
+		try {
+			driver.findElement(locator).click();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

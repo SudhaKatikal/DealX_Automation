@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite-1" >
+
+<test name="Test Case-1" >
+
+<classes>
+
+<class name="YourLogo_Assessment.TC1_SearchAndVerify" />
+<class name="YourLogo_Assessment.TC2_MultipleSearch" />
+<class name="YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel" />
+<class name="YourLogo_Assessment.TC4_SignIn_using_credentials" />
+<class name="YourLogo_Assessment.TC5_Cart_Validation" />
+<class name="YourLogo_Assessment.TC6_MenuNavigation" />
+
+
+</classes> 
+
+</test>
+
+</suite>

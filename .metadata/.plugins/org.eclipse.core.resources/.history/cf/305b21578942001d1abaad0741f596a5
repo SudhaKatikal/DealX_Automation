@@ -1,0 +1,16 @@
+package YourLogo_Assessment;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeMethod;
+
+import com.qa.yourlogo.BrowserHelper;
+
+public class BaseTest {
+	BrowserHelper browser_helper = new BrowserHelper();
+	public WebDriver driver = BrowserHelper.get_web_driver();
+	
+	@BeforeMethod
+	public void setup() {
+		
+	}
+}
