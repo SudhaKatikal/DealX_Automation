@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite-1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Case-1(failed)">
+    <classes>
+      <class name="YourLogo_Assessment.TC2_MultipleSearch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="PerformSearchAndValidate"/>
+          <include name="PreconditionBrowser"/>
+          <include name="TestCase2_MultipleSearch"/>
+        </methods>
+      </class> <!-- YourLogo_Assessment.TC2_MultipleSearch -->
+      <class name="YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TeastCase3_DataDrivenApproachUsingExcel"/>
+          <include name="PerformSearchAndValidate"/>
+          <include name="PreconditionBrowser"/>
+        </methods>
+      </class> <!-- YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel -->
+      <class name="YourLogo_Assessment.TC6_MenuNavigation">
+        <methods>
+          <include name="verifyClickOnBlousesSubMenu_Under_Women_Menu"/>
+          <include name="verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu"/>
+          <include name="verifyClickOnTshirtsSubMenu_Under_Women_Menu"/>
+          <include name="verifyHoveringWomanMenu"/>
+          <include name="tear_down"/>
+          <include name="verifyClickOn_SummerDresses_submenu_Under_Women_Menu"/>
+          <include name="setup"/>
+          <include name="verifyHoveringDressesMenu"/>
+          <include name="verifyClickOn_EveningDresses_submenu_Under_Women_Menu"/>
+          <include name="verifyClickOnTshirtsMenu"/>
+          <include name="verifyClickOn_CasualDresses_submenu_Under_Women_Menu"/>
+          <include name="TakeScreenshot"/>
+          <include name="verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu"/>
+          <include name="verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu"/>
+        </methods>
+      </class> <!-- YourLogo_Assessment.TC6_MenuNavigation -->
+      <class name="YourLogo_Assessment.TC1_SearchAndVerify">
+        <methods>
+          <include name="tearDown"/>
+          <include name="PerformSearchAndValidate"/>
+          <include name="PreconditionBrowser"/>
+        </methods>
+      </class> <!-- YourLogo_Assessment.TC1_SearchAndVerify -->
+    </classes>
+  </test> <!-- Test Case-1(failed) -->
+</suite> <!-- Failed suite [Test Suite-1] -->

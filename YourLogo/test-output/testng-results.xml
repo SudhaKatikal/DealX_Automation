@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title of ApplicationMy Store]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string:Dress, First Search Result occurence:Printed Summer Dress]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string is found in First Search Result occurence]]>
+    </line>
+    <line>
+      <![CDATA[Title of ApplicationMy Store]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string:Dress, First Search Result occurence:Printed Summer Dress]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string is found in First Search Result occurence]]>
+    </line>
+    <line>
+      <![CDATA[Blouse]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string:Blouse, First Search Result occurence:Blouse]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string is found in First Search Result occurence]]>
+    </line>
+    <line>
+      <![CDATA[T-shirts]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string:T-shirts, First Search Result occurence:Faded Short Sleeve T-shirts]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string is found in First Search Result occurence]]>
+    </line>
+    <line>
+      <![CDATA[Printed]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string:Printed, First Search Result occurence:Printed Summer Dress]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string is found in First Search Result occurence]]>
+    </line>
+    <line>
+      <![CDATA[Title of ApplicationMy Store]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string:Dress, First Search Result occurence:Printed Summer Dress]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string is found in First Search Result occurence]]>
+    </line>
+    <line>
+      <![CDATA[Blouse]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string:Blouse, First Search Result occurence:Blouse]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string is found in First Search Result occurence]]>
+    </line>
+    <line>
+      <![CDATA[T-shirts]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string:T-shirts, First Search Result occurence:Faded Short Sleeve T-shirts]]>
+    </line>
+    <line>
+      <![CDATA[Input Search string is found in First Search Result occurence]]>
+    </line>
+    <line>
+      <![CDATA[Title of ApplicationMy Store]]>
+    </line>
+    <line>
+      <![CDATA[User Logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Title of ApplicationMy Store]]>
+    </line>
+    <line>
+      <![CDATA[User Logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Unit Price: 28.98]]>
+    </line>
+    <line>
+      <![CDATA[Quantity: 2]]>
+    </line>
+    <line>
+      <![CDATA[Total price captured: $57.96]]>
+    </line>
+    <line>
+      <![CDATA[Total Price captured on Cart is matcthed with Expected Amount]]>
+    </line>
+    <line>
+      <![CDATA[Title of ApplicationMy Store]]>
+    </line>
+    <line>
+      <![CDATA[Hovering Results on WOMEN Menu: true]]>
+    </line>
+    <line>
+      <![CDATA[Hovering Results on DRESSES Menu: true]]>
+    </line>
+    <line>
+      <![CDATA[After Click on T-SHIRTS Menu, String on the Page: T-SHIRTS ]]>
+    </line>
+    <line>
+      <![CDATA[After Click on T-SHIRTS Sub Menu under the WOMEN Menu, String on the Page: T-SHIRTS ]]>
+    </line>
+    <line>
+      <![CDATA[After Click on BLOUSES Sub Menu under the WOMEN Menu, String on the Page: BLOUSES ]]>
+    </line>
+    <line>
+      <![CDATA[After Click on CASUAL DRESSES Sub Menu under the WOMEN Menu, String on the Page: CASUAL DRESSES ]]>
+    </line>
+    <line>
+      <![CDATA[After Click on EVENING DRESSES Sub Menu under the WOMEN Menu, String on the Page: EVENING DRESSES ]]>
+    </line>
+    <line>
+      <![CDATA[After Click on SUMMER DRESSES Sub Menu under the WOMEN Menu, String on the Page: SUMMER DRESSES ]]>
+    </line>
+    <line>
+      <![CDATA[After Click on CASUAL DRESSES Sub Menu under the DRESSES Menu, String on the Page: CASUAL DRESSES ]]>
+    </line>
+    <line>
+      <![CDATA[After Click on EVENING DRESSES Sub Menu under the DRESSES Menu, String on the Page: EVENING DRESSES ]]>
+    </line>
+    <line>
+      <![CDATA[After Click on SUMMER DRESSES Sub Menu under the DRESSES Menu, String on the Page: SUMMER DRESSES ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-03T12:40:26Z" name="Suite" finished-at="2022-10-03T12:43:05Z" duration-ms="158717">
+    <groups>
+    </groups>
+    <test started-at="2022-10-03T12:40:26Z" name="TC1_SearchAndVerify" finished-at="2022-10-03T12:40:49Z" duration-ms="23152">
+      <class name="com.qa.YourLogo_Assessment.TC1_SearchAndVerify">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC1_SearchAndVerify@c074c0c]" started-at="2022-10-03T12:40:26Z" name="setup" finished-at="2022-10-03T12:40:47Z" duration-ms="20597" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of ApplicationMy Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase1_PerformSearchAndValidate()[pri:1, instance:com.qa.YourLogo_Assessment.TC1_SearchAndVerify@c074c0c]" started-at="2022-10-03T12:40:47Z" name="TestCase1_PerformSearchAndValidate" finished-at="2022-10-03T12:40:49Z" duration-ms="1975" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Input Search string:Dress, First Search Result occurence:Printed Summer Dress]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string is found in First Search Result occurence]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase1_PerformSearchAndValidate -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC1_SearchAndVerify@c074c0c]" started-at="2022-10-03T12:40:49Z" name="TakeScreenshot" finished-at="2022-10-03T12:40:49Z" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase1_PerformSearchAndValidate status=SUCCESS method=TC1_SearchAndVerify.TestCase1_PerformSearchAndValidate()[pri:1, instance:com.qa.YourLogo_Assessment.TC1_SearchAndVerify@c074c0c] output=Input Search string:Dress, First Search Result occurence:Printed Summer Dress]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC1_SearchAndVerify@c074c0c]" started-at="2022-10-03T12:40:49Z" name="tear_down" finished-at="2022-10-03T12:40:49Z" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.qa.YourLogo_Assessment.TC1_SearchAndVerify -->
+    </test> <!-- TC1_SearchAndVerify -->
+    <test started-at="2022-10-03T12:40:49Z" name="TC2_MultipleSearch" finished-at="2022-10-03T12:41:06Z" duration-ms="16239">
+      <class name="com.qa.YourLogo_Assessment.TC2_MultipleSearch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]" started-at="2022-10-03T12:40:49Z" name="setup" finished-at="2022-10-03T12:40:56Z" duration-ms="6481" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of ApplicationMy Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase1_PerformSearchAndValidate()[pri:1, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]" started-at="2022-10-03T12:40:56Z" name="TestCase1_PerformSearchAndValidate" finished-at="2022-10-03T12:40:58Z" duration-ms="1778" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Input Search string:Dress, First Search Result occurence:Printed Summer Dress]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string is found in First Search Result occurence]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase1_PerformSearchAndValidate -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]" started-at="2022-10-03T12:40:58Z" name="TakeScreenshot" finished-at="2022-10-03T12:40:58Z" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase1_PerformSearchAndValidate status=SUCCESS method=TC1_SearchAndVerify.TestCase1_PerformSearchAndValidate()[pri:1, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27] output=Input Search string:Dress, First Search Result occurence:Printed Summer Dress]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="TestCase2_MultipleSearch()[pri:2, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]" started-at="2022-10-03T12:40:58Z" name="TestCase2_MultipleSearch" finished-at="2022-10-03T12:41:05Z" duration-ms="7384" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Blouse]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string:Blouse, First Search Result occurence:Blouse]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string is found in First Search Result occurence]]>
+            </line>
+            <line>
+              <![CDATA[T-shirts]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string:T-shirts, First Search Result occurence:Faded Short Sleeve T-shirts]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string is found in First Search Result occurence]]>
+            </line>
+            <line>
+              <![CDATA[Printed]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string:Printed, First Search Result occurence:Printed Summer Dress]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string is found in First Search Result occurence]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase2_MultipleSearch -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]" started-at="2022-10-03T12:41:05Z" name="TakeScreenshot" finished-at="2022-10-03T12:41:05Z" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase2_MultipleSearch status=SUCCESS method=TC2_MultipleSearch.TestCase2_MultipleSearch()[pri:2, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27] output=Blouse]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC2_MultipleSearch@1db0ec27]" started-at="2022-10-03T12:41:05Z" name="tear_down" finished-at="2022-10-03T12:41:06Z" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.qa.YourLogo_Assessment.TC2_MultipleSearch -->
+    </test> <!-- TC2_MultipleSearch -->
+    <test started-at="2022-10-03T12:41:06Z" name="TC3_DataDrivenApproachUsingExcel" finished-at="2022-10-03T12:41:21Z" duration-ms="15168">
+      <class name="com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]" started-at="2022-10-03T12:41:06Z" name="setup" finished-at="2022-10-03T12:41:14Z" duration-ms="8555" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of ApplicationMy Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase1_PerformSearchAndValidate()[pri:1, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]" started-at="2022-10-03T12:41:14Z" name="TestCase1_PerformSearchAndValidate" finished-at="2022-10-03T12:41:17Z" duration-ms="2609" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Input Search string:Dress, First Search Result occurence:Printed Summer Dress]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string is found in First Search Result occurence]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase1_PerformSearchAndValidate -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]" started-at="2022-10-03T12:41:17Z" name="TakeScreenshot" finished-at="2022-10-03T12:41:17Z" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase1_PerformSearchAndValidate status=SUCCESS method=TC1_SearchAndVerify.TestCase1_PerformSearchAndValidate()[pri:1, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b] output=Input Search string:Dress, First Search Result occurence:Printed Summer Dress]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="TeastCase3_DataDrivenApproachUsingExcel()[pri:3, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]" started-at="2022-10-03T12:41:17Z" name="TeastCase3_DataDrivenApproachUsingExcel" finished-at="2022-10-03T12:41:20Z" duration-ms="3427" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Blouse]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string:Blouse, First Search Result occurence:Blouse]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string is found in First Search Result occurence]]>
+            </line>
+            <line>
+              <![CDATA[T-shirts]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string:T-shirts, First Search Result occurence:Faded Short Sleeve T-shirts]]>
+            </line>
+            <line>
+              <![CDATA[Input Search string is found in First Search Result occurence]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TeastCase3_DataDrivenApproachUsingExcel -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]" started-at="2022-10-03T12:41:20Z" name="TakeScreenshot" finished-at="2022-10-03T12:41:20Z" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TeastCase3_DataDrivenApproachUsingExcel status=SUCCESS method=TC3_DataDrivenApproachUsingExcel.TeastCase3_DataDrivenApproachUsingExcel()[pri:3, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b] output=Blouse]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel@20921b9b]" started-at="2022-10-03T12:41:20Z" name="tear_down" finished-at="2022-10-03T12:41:21Z" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.qa.YourLogo_Assessment.TC3_DataDrivenApproachUsingExcel -->
+    </test> <!-- TC3_DataDrivenApproachUsingExcel -->
+    <test started-at="2022-10-03T12:41:21Z" name="TC4_SignIn_using_credentials" finished-at="2022-10-03T12:41:34Z" duration-ms="12968">
+      <class name="com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials@27494e46]" started-at="2022-10-03T12:41:21Z" name="setup" finished-at="2022-10-03T12:41:27Z" duration-ms="6045" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of ApplicationMy Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase4_SignIn_using_credentials()[pri:4, instance:com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials@27494e46]" started-at="2022-10-03T12:41:27Z" name="TestCase4_SignIn_using_credentials" finished-at="2022-10-03T12:41:33Z" duration-ms="6406" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase4_SignIn_using_credentials -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials@27494e46]" started-at="2022-10-03T12:41:33Z" name="TakeScreenshot" finished-at="2022-10-03T12:41:33Z" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase4_SignIn_using_credentials status=SUCCESS method=TC4_SignIn_using_credentials.TestCase4_SignIn_using_credentials()[pri:4, instance:com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials@27494e46] output=User Logged in successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials@27494e46]" started-at="2022-10-03T12:41:33Z" name="tear_down" finished-at="2022-10-03T12:41:34Z" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.qa.YourLogo_Assessment.TC4_SignIn_using_credentials -->
+    </test> <!-- TC4_SignIn_using_credentials -->
+    <test started-at="2022-10-03T12:41:34Z" name="TC5_Cart_Validation" finished-at="2022-10-03T12:42:14Z" duration-ms="40211">
+      <class name="com.qa.YourLogo_Assessment.TC5_Cart_Validation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]" started-at="2022-10-03T12:41:34Z" name="setup" finished-at="2022-10-03T12:41:43Z" duration-ms="9169" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of ApplicationMy Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase4_SignIn_using_credentials()[pri:4, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]" started-at="2022-10-03T12:41:43Z" name="TestCase4_SignIn_using_credentials" finished-at="2022-10-03T12:41:49Z" duration-ms="5558" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase4_SignIn_using_credentials -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]" started-at="2022-10-03T12:41:49Z" name="TakeScreenshot" finished-at="2022-10-03T12:41:49Z" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase4_SignIn_using_credentials status=SUCCESS method=TC4_SignIn_using_credentials.TestCase4_SignIn_using_credentials()[pri:4, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed] output=User Logged in successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="TestCase5_Cart_Validation()[pri:5, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]" started-at="2022-10-03T12:41:49Z" name="TestCase5_Cart_Validation" finished-at="2022-10-03T12:42:13Z" duration-ms="24803" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Unit Price: 28.98]]>
+            </line>
+            <line>
+              <![CDATA[Quantity: 2]]>
+            </line>
+            <line>
+              <![CDATA[Total price captured: $57.96]]>
+            </line>
+            <line>
+              <![CDATA[Total Price captured on Cart is matcthed with Expected Amount]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase5_Cart_Validation -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]" started-at="2022-10-03T12:42:13Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:14Z" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase5_Cart_Validation status=SUCCESS method=TC5_Cart_Validation.TestCase5_Cart_Validation()[pri:5, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed] output=Unit Price: 28.98]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC5_Cart_Validation@72ab05ed]" started-at="2022-10-03T12:42:14Z" name="tear_down" finished-at="2022-10-03T12:42:14Z" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.qa.YourLogo_Assessment.TC5_Cart_Validation -->
+    </test> <!-- TC5_Cart_Validation -->
+    <test started-at="2022-10-03T12:42:14Z" name="TC6_MenuNavigation" finished-at="2022-10-03T12:43:05Z" duration-ms="50886">
+      <class name="com.qa.YourLogo_Assessment.TC6_MenuNavigation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:14Z" name="setup" finished-at="2022-10-03T12:42:32Z" duration-ms="17550" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of ApplicationMy Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHoveringWomanMenu()[pri:1, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:32Z" name="verifyHoveringWomanMenu" finished-at="2022-10-03T12:42:32Z" duration-ms="154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hovering Results on WOMEN Menu: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHoveringWomanMenu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:32Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:32Z" duration-ms="464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHoveringWomanMenu status=SUCCESS method=TC6_MenuNavigation.verifyHoveringWomanMenu()[pri:1, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=Hovering Results on WOMEN Menu: true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyHoveringDressesMenu()[pri:2, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:32Z" name="verifyHoveringDressesMenu" finished-at="2022-10-03T12:42:32Z" duration-ms="142" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hovering Results on DRESSES Menu: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHoveringDressesMenu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:32Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:33Z" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHoveringDressesMenu status=SUCCESS method=TC6_MenuNavigation.verifyHoveringDressesMenu()[pri:2, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=Hovering Results on DRESSES Menu: true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyClickOnTshirtsMenu()[pri:3, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:33Z" name="verifyClickOnTshirtsMenu" finished-at="2022-10-03T12:42:40Z" duration-ms="7460" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Click on T-SHIRTS Menu, String on the Page: T-SHIRTS ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnTshirtsMenu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:40Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:40Z" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnTshirtsMenu status=SUCCESS method=TC6_MenuNavigation.verifyClickOnTshirtsMenu()[pri:3, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=After Click on T-SHIRTS Menu, String on the Page: T-SHIRTS ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyClickOnTshirtsSubMenu_Under_Women_Menu()[pri:4, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:40Z" name="verifyClickOnTshirtsSubMenu_Under_Women_Menu" finished-at="2022-10-03T12:42:44Z" duration-ms="3815" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Click on T-SHIRTS Sub Menu under the WOMEN Menu, String on the Page: T-SHIRTS ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnTshirtsSubMenu_Under_Women_Menu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:44Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:44Z" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnTshirtsSubMenu_Under_Women_Menu status=SUCCESS method=TC6_MenuNavigation.verifyClickOnTshirtsSubMenu_Under_Women_Menu()[pri:4, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=After Click on T-SHIRTS Sub Menu under the WOMEN Menu, String on the Page: T-SHIRTS ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyClickOnBlousesSubMenu_Under_Women_Menu()[pri:5, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:44Z" name="verifyClickOnBlousesSubMenu_Under_Women_Menu" finished-at="2022-10-03T12:42:48Z" duration-ms="3533" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Click on BLOUSES Sub Menu under the WOMEN Menu, String on the Page: BLOUSES ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnBlousesSubMenu_Under_Women_Menu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:48Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:48Z" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnBlousesSubMenu_Under_Women_Menu status=SUCCESS method=TC6_MenuNavigation.verifyClickOnBlousesSubMenu_Under_Women_Menu()[pri:5, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=After Click on BLOUSES Sub Menu under the WOMEN Menu, String on the Page: BLOUSES ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyClickOn_CasualDresses_submenu_Under_Women_Menu()[pri:6, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:48Z" name="verifyClickOn_CasualDresses_submenu_Under_Women_Menu" finished-at="2022-10-03T12:42:50Z" duration-ms="2101" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Click on CASUAL DRESSES Sub Menu under the WOMEN Menu, String on the Page: CASUAL DRESSES ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOn_CasualDresses_submenu_Under_Women_Menu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:50Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:50Z" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOn_CasualDresses_submenu_Under_Women_Menu status=SUCCESS method=TC6_MenuNavigation.verifyClickOn_CasualDresses_submenu_Under_Women_Menu()[pri:6, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=After Click on CASUAL DRESSES Sub Menu under the WOMEN Menu, String on the Page: CASUAL DRESSES ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyClickOn_EveningDresses_submenu_Under_Women_Menu()[pri:7, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:50Z" name="verifyClickOn_EveningDresses_submenu_Under_Women_Menu" finished-at="2022-10-03T12:42:53Z" duration-ms="2643" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Click on EVENING DRESSES Sub Menu under the WOMEN Menu, String on the Page: EVENING DRESSES ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOn_EveningDresses_submenu_Under_Women_Menu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:53Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:53Z" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOn_EveningDresses_submenu_Under_Women_Menu status=SUCCESS method=TC6_MenuNavigation.verifyClickOn_EveningDresses_submenu_Under_Women_Menu()[pri:7, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=After Click on EVENING DRESSES Sub Menu under the WOMEN Menu, String on the Page: EVENING DRESSES ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyClickOn_SummerDresses_submenu_Under_Women_Menu()[pri:8, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:53Z" name="verifyClickOn_SummerDresses_submenu_Under_Women_Menu" finished-at="2022-10-03T12:42:56Z" duration-ms="3030" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Click on SUMMER DRESSES Sub Menu under the WOMEN Menu, String on the Page: SUMMER DRESSES ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOn_SummerDresses_submenu_Under_Women_Menu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:56Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:56Z" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOn_SummerDresses_submenu_Under_Women_Menu status=SUCCESS method=TC6_MenuNavigation.verifyClickOn_SummerDresses_submenu_Under_Women_Menu()[pri:8, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=After Click on SUMMER DRESSES Sub Menu under the WOMEN Menu, String on the Page: SUMMER DRESSES ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu()[pri:9, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:56Z" name="verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu" finished-at="2022-10-03T12:42:58Z" duration-ms="2073" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Click on CASUAL DRESSES Sub Menu under the DRESSES Menu, String on the Page: CASUAL DRESSES ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:58Z" name="TakeScreenshot" finished-at="2022-10-03T12:42:59Z" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu status=SUCCESS method=TC6_MenuNavigation.verifyClickOn_CasualDresses_submenu_Under_Dresses_Menu()[pri:9, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=After Click on CASUAL DRESSES Sub Menu under the DRESSES Menu, String on the Page: CASUAL DRESSES ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu()[pri:10, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:42:59Z" name="verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu" finished-at="2022-10-03T12:43:01Z" duration-ms="2117" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Click on EVENING DRESSES Sub Menu under the DRESSES Menu, String on the Page: EVENING DRESSES ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:43:01Z" name="TakeScreenshot" finished-at="2022-10-03T12:43:01Z" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu status=SUCCESS method=TC6_MenuNavigation.verifyClickOn_EveningDresses_submenu_Under_Dresses_Menu()[pri:10, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=After Click on EVENING DRESSES Sub Menu under the DRESSES Menu, String on the Page: EVENING DRESSES ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu()[pri:11, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:43:01Z" name="verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu" finished-at="2022-10-03T12:43:04Z" duration-ms="3336" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Click on SUMMER DRESSES Sub Menu under the DRESSES Menu, String on the Page: SUMMER DRESSES ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu -->
+        <test-method is-config="true" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:43:04Z" name="TakeScreenshot" finished-at="2022-10-03T12:43:05Z" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu status=SUCCESS method=TC6_MenuNavigation.verifyClickOn_SummerDresses_submenu_Under_Dresses_Menu()[pri:11, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87] output=After Click on SUMMER DRESSES Sub Menu under the DRESSES Menu, String on the Page: SUMMER DRESSES ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.qa.YourLogo_Assessment.TC6_MenuNavigation@6d467c87]" started-at="2022-10-03T12:43:05Z" name="tear_down" finished-at="2022-10-03T12:43:05Z" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.qa.YourLogo_Assessment.TC6_MenuNavigation -->
+    </test> <!-- TC6_MenuNavigation -->
+  </suite> <!-- Suite -->
+</testng-results>

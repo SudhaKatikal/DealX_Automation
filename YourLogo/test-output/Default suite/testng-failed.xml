@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.YourLogo_Assessment.TC2_MultipleSearch">
+        <methods>
+          <include name="tear_down"/>
+          <include name="TakeScreenshot"/>
+          <include name="setup"/>
+          <include name="TestCase1_PerformSearchAndValidate"/>
+          <include name="TestCase2_MultipleSearch"/>
+        </methods>
+      </class> <!-- com.qa.YourLogo_Assessment.TC2_MultipleSearch -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
